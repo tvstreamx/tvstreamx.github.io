@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.tvstreamx" name="[B][COLOR yellow]TVSTREAMX[/COLOR][/B] [B][COLOR lime]REPO[/COLOR][/B]" version="1.0" provider-name="[B][COLOR magenta]TEAM TVSTREAMX[/COLOR][/B]">
+<addon id="repository.tvstreamx" name="[B][COLOR yellow]REPOSITÓRIO[/COLOR][/B] [B][COLOR lime]TVSTREAMX[/COLOR][/B]" version="1.7" provider-name="[B][COLOR magenta]@gh000000000000st[/COLOR][/B]">
+  <requires>
     <import addon="xbmc.addon" version="12.0.0"/>  
   </requires>
-  <extension point="xbmc.addon.repository" name="[B][COLOR yellow]REPOSITÓRIO[/COLOR][/B] [B][COLOR lime]TVSTREAMX[/COLOR][/B]">
+  <extension point="xbmc.addon.repository" name="[B][COLOR yellow]REPOSITÓRIO[/COLOR][/B] [B][COLOR lime]TEAM TVSTREAMX[/COLOR][/B]">
     <dir>
     <info compressed="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/addons.xml</info>
     <checksum>https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/addons.xml.md5</checksum>
