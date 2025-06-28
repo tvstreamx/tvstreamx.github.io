@@ -31,8 +31,8 @@
   </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>[B][COLOR green]REPOSITORIO BLACKGHOST1[/B][/COLOR]</summary>
-    <description>[COLOR orange]REPOSITÓRIO OFICIAL [B][COLOR lime]BLACKGHOST1[/B][/COLOR]</description>
+    <summary>[B][COLOR green]REPOSITORIO OFICIAL DO TVSTREAMX[/B][/COLOR]</summary>
+    <description>[B][COLOR orange]REPOSITÓRIO OFICIAL [/B][/COLOR]</description>
     <disclaimer></disclaimer>
     <platform>all</platform>
     <assets>
