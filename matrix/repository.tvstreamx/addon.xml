@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.tvstreamx" name="[B][COLOR yellow]TVSTREAMX[/COLOR][/B] [B][COLOR lime]REPO[/COLOR][/B]" version="1.0" provider-name="[B][COLOR magenta]TEAM TVSTREAMX[/COLOR][/B]">
+    <import addon="xbmc.addon" version="12.0.0"/>  
+  </requires>
+  <extension point="xbmc.addon.repository" name="[B][COLOR yellow]REPOSITÓRIO[/COLOR][/B] [B][COLOR lime]BLACKGHOST1[/COLOR][/B]">
+    <dir>
+    <info compressed="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master</datadir>
+    <hashes>false</hashes>
+</dir>
+  <dir minversion="19.9.9">
+      <info compressed="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/omega/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/omega/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/omega</datadir>
+      <hashes>false</hashes>
+  </dir> 
+<dir minversion="19.9.9">
+      <info compressed="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/nexus/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/nexus/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/nexus</datadir>
+      <hashes>false</hashes>
+  </dir>  
+  <dir minversion="19.0.0">
+      <info compressed="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/matrix/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/matrix</datadir>
+      <hashes>false</hashes>
+  </dir>    
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[B][COLOR yellow]REPOSITORIO BLACKGHOST1[/B][/COLOR]</summary>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
