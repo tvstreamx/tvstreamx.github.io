@@ -205,7 +205,6 @@
 <addon id="repository.tvstreamx" name="[B][COLOR yellow]TVSTREAMX[/COLOR][/B] [B][COLOR lime]REPO[/COLOR][/B]" version="1.0" provider-name="[B][COLOR magenta]TEAM TVSTREAMX[/COLOR][/B]">
     <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
-  <extension point="xbmc.addon.repository" name="[B][COLOR yellow]REPOSITÓRIO[/COLOR][/B] [B][COLOR lime]BLACKGHOST1[/COLOR][/B]">
     <dir>
     <info compressed="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/addons.xml</info>
     <checksum>https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/addons.xml.md5</checksum>
