@@ -22,63 +22,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tvstreampro"
-    version="1.0.2"
-    name="[COLOR yellow][B]TVSTREAMPRO[/B][/COLOR]"
-    provider-name="[B][COLOR cyan]@gh000000000000st[/B][/COLOR]">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1"/>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-        <import addon="script.module.beautifulsoup4" version="4.12.2"/>
-        <import addon="script.module.requests" version="2.25.1"/>
-        <import addon="script.module.inputstreamhelper"/>
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="pt_BR">Brasil Streaming</summary>
-        <summary lang="en_US">Brasil Streaming</summary>
-        <description lang="pt_BR">
-            Brasil Streaming é uma plataforma que agrega links de conteúdos de vídeo disponíveis publicamente na internet, fornecidos por terceiros.
-            A plataforma oferece uma interface intuitiva para os usuários explorarem uma vasta biblioteca de filmes e programas de TV, com detalhes obtidos do The Movie Database (TMDb).
-            O plugin permite streaming de vídeos diretamente no Kodi, integrando-se perfeitamente ao player padrão.
-            Brasil Streaming não hospeda, armazena ou distribui conteúdo de vídeo, funcionando exclusivamente como um agregador de links disponibilizados por fontes externas.
-            A responsabilidade pelo conteúdo acessado é exclusivamente dos provedores dos links e dos usuários, conforme as leis aplicáveis.
-        </description>
-        <description lang="en_US">
-            Brasil Streaming is a platform that aggregates publicly available video content links provided by third parties.
-            It offers an intuitive interface for users to explore a vast library of movies and TV shows, with details sourced from The Movie Database (TMDb).
-            The plugin enables video streaming directly within Kodi, seamlessly integrated with the default player.
-            Brasil Streaming does not host, store, or distribute video content, acting solely as an aggregator of links from external sources.
-            Responsibility for the accessed content lies solely with the link providers and users, in accordance with applicable laws.
-        </description>
-        <disclaimer lang="pt_BR">
-            Brasil Streaming não hospeda, armazena ou distribui qualquer conteúdo de vídeo, funcionando apenas como um agregador de links disponibilizados publicamente na internet por terceiros.
-            Não nos responsabilizamos pela legalidade, qualidade ou veracidade do conteúdo acessado por meio desses links.
-            O uso deste plugin está sujeito às leis locais aplicáveis, e os usuários são responsáveis por garantir que sua utilização esteja em conformidade com a legislação vigente.
-        </disclaimer>
-        <disclaimer lang="en_US">
-            Brasil Streaming does not host, store, or distribute any video content, operating solely as an aggregator of publicly available links provided by third parties.
-            We are not responsible for the legality, quality, or accuracy of the content accessed through these links.
-            Use of this plugin is subject to applicable local laws, and users are responsible for ensuring their usage complies with current legislation.
-        </disclaimer>
-        <license>GPL-3.0-or-later</license>
-        <website>https://github.com/brasilstreaming-plus</website>
-        <forum></forum>
-        <assets>
-            <icon>arquivos/imagens/icon.png</icon>
-            <fanart>arquivos/imagens/fanart.jpg</fanart>
-        </assets>
-        <language></language>
-    </extension>
-</addon>
-
 <addon id="plugin.video.youtube" name="YouTube" version="7.0.5" provider-name="anxdpanic, bromix, MoojMidge">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -237,47 +180,6 @@
     </extension>
 </addon>
 
-<addon id="repository.repoblackghost1" name="[B][COLOR yellow]REPOSITÓRIO[/COLOR][/B] [B][COLOR lime]BLACKGHOST1[/COLOR][/B]" version="1.5" provider-name="[B][COLOR magenta]@gh000000000000st[/COLOR][/B]">
-  <requires>
-    <import addon="xbmc.addon" version="12.0.0"/>
-  </requires>
-  <extension point="xbmc.addon.repository" name="[B][COLOR yellow]REPOSITÓRIO[/COLOR][/B] [B][COLOR lime]BLACKGHOST1[/COLOR][/B]">
-    <dir>
-    <info compressed="true">https://raw.githubusercontent.com/repoblackghost1/repoblackghost1.github.io/master/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/repoblackghost1/repoblackghost1.github.io/master/addons.xml.md5</checksum>
-    <datadir zip="true">https://raw.githubusercontent.com/repoblackghost1/repoblackghost1.github.io/master</datadir>
-    <hashes>false</hashes>
-</dir>
-  <dir minversion="19.9.9">
-      <info compressed="true">https://raw.githubusercontent.com/repoblackghost1/repoblackghost1.github.io/master/omega/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/repoblackghost1/repoblackghost1.github.io/master/omega/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/repoblackghost1/repoblackghost1.github.io/master/omega</datadir>
-      <hashes>false</hashes>
-  </dir>
-<dir minversion="19.9.9">
-      <info compressed="true">https://raw.githubusercontent.com/repoblackghost1/repoblackghost1.github.io/master/nexus/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/repoblackghost1/repoblackghost1.github.io/master/nexus/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/repoblackghost1/repoblackghost1.github.io/master/nexus</datadir>
-      <hashes>false</hashes>
-  </dir>
-  <dir minversion="19.0.0">
-      <info compressed="true">https://raw.githubusercontent.com/repoblackghost1/repoblackghost1.github.io/master/matrix/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/repoblackghost1/repoblackghost1.github.io/master/matrix/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/repoblackghost1/repoblackghost1.github.io/master/matrix</datadir>
-      <hashes>false</hashes>
-  </dir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>[B][COLOR yellow]REPOSITORIO BLACKGHOST1[/B][/COLOR]</summary>
-    <disclaimer></disclaimer>
-    <platform>all</platform>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="repository.resolveurl" name="ResolveURL Repository" provider-name="gujal" version="1.0.0">
   <extension point="xbmc.addon.repository" name="ResolveURL Repository">
     <dir>
@@ -293,6 +195,46 @@
     <language></language>
     <website></website>
     <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="repository.tvstreamx" name="[B][COLOR yellow]TVSTREAMX[/COLOR][/B] [B][COLOR lime]REPO[/COLOR][/B]" version="1.0" provider-name="[B][COLOR magenta]TEAM TVSTREAMX[/COLOR][/B]">
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="[B][COLOR yellow]REPOSITÓRIO[/COLOR][/B] [B][COLOR lime]BLACKGHOST1[/COLOR][/B]">
+    <dir>
+    <info compressed="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master</datadir>
+    <hashes>false</hashes>
+</dir>
+  <dir minversion="19.9.9">
+      <info compressed="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/omega/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/omega/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/omega</datadir>
+      <hashes>false</hashes>
+  </dir>
+<dir minversion="19.9.9">
+      <info compressed="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/nexus/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/nexus/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/nexus</datadir>
+      <hashes>false</hashes>
+  </dir>
+  <dir minversion="19.0.0">
+      <info compressed="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/matrix/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/tvstreamx/tvstreamx.github.io/master/matrix</datadir>
+      <hashes>false</hashes>
+  </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[B][COLOR yellow]REPOSITORIO BLACKGHOST1[/B][/COLOR]</summary>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
@@ -793,5 +735,26 @@ v5.1.2 (2020-03-21) by enen92
 		</assets>
 		<source>https://github.com/juokelis/service.subtitles.opensubtitles</source>
 	</extension>
+</addon>
+
+<addon id="script.module.netunblock" name="Net Unblock" version="0.0.1" provider-name="Joel">
+    <requires>
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="app.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">DNS OVER HTTPS (DoH) resolver for Kodi.</summary>
+        <description lang="en_GB">dns over https resolve globally in python script with socket</description>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 </addons>
