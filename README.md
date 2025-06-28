@@ -4,7 +4,7 @@
   <img src="https://raw.githubusercontent.com/BLACKSHEEPcolabdev/add-on/refs/heads/master/BLACKGHOST/Imagens/topo2.png" alt="Imagem de topo" />
 </p>
 
-<p align="center"><strong>Versão Atual</strong>: `1.0</p>
+<p align="center"><strong>Versão Atual</strong>: `1.1</p>
 
 Instruções para a adição deste repositório no Kodi:
 
@@ -18,7 +18,7 @@ Instruções para a adição deste repositório no Kodi:
   <li>Em Addons, instalar de um ficheiro ZIP.  
     Quando perguntar pela localização, selecionar  
     "repoblackghost1 Repo" e instalar:  
-    <a href="repository.tvstreamx-1.0.zip">repository.tvstreamx-1.0.zip</a>.</li>
+    <a href="repository.tvstreamx-1.1.zip">repository.tvstreamx-1.1.zip</a>.</li>
   <li>Voltar para "Addons", mas desta vez, selecionar  
     "Instalar do repositório".</li>
   <li>Selecionar o "tvstreamx Repositório".</li>
